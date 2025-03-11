@@ -1,0 +1,15 @@
+.fi-pagination a, .fi-pagination button {
+    color: white !important;
+    background-color: #1a1a1a !important; /* Keep dark mode consistent */
+    border: 1px solid #444 !important; /* Add contrast */
+}
+
+.fi-pagination .fi-active {
+    background-color: #ff9800 !important; /* Your primary color */
+    color: white !important;
+    border-color: #ff9800 !important;
+}
+
+.fi-pagination a:hover, .fi-pagination button:hover {
+    background-color: #333 !important; /* Hover effect */
+}
